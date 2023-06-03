@@ -6,7 +6,7 @@ dotenv.config()
 const app: Express = express()
 
 
-
+app.use('/api/agent', Agent)
 
 
 function Run() {
